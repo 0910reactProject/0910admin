@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+//引入antd的全局样式文件
+// import "antd/dist/antd.css";
+
+
+//axios
+import axios from "utils/axios.js"
+React.Component.prototype.$axios=axios
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
