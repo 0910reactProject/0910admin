@@ -8,8 +8,7 @@ class App extends Component{
     render(){
         return(
             <div className="App">
-                asdfa
-                <Button type="danger">按钮</Button>
+                {this.props.children}
             </div>
         )
     }
